@@ -542,3 +542,17 @@ span {
     clip: rect(0 0 0 0); 
     overflow: hidden;
 }
+
+.last-footer {
+
+}
+
+.buttton-footer {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5); 
+}
