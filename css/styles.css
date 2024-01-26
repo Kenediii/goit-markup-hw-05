@@ -555,4 +555,12 @@ span {
     gap: 16px; 
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5); 
+    color: var(--WHITE, #FFF);
+    text-align: center; 
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.64px; 
 }
