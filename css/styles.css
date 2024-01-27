@@ -604,6 +604,9 @@ span {
     line-height: 24px; 
     letter-spacing: 0.64px; 
     cursor: pointer;
+    max-width: 165px;
+    height: 40px;
+    border: none;
 }
 
 .button-footer-svg {
