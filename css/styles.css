@@ -544,7 +544,7 @@ span {
 }
 
 .last-footer {
-
+    margin-left: 80px;
 }
 
 .last-footer_text {
@@ -574,6 +574,16 @@ span {
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: var(--white);
+    font-family: inherit;
+}
+
+.last-footer_input::placeholder {
+    color: var(--white);
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    font-family: inherit;
 }
 
 .buttton-footer {
