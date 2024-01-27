@@ -8,6 +8,7 @@
     --cloud:         #F4F4FD;
     --cornflower:    #E7E9FC;
     --okean:         #404BBF;
+    --dairy:         #FCFCFC;
 
 }
 
@@ -588,7 +589,7 @@ span {
 
 .buttton-footer {
     display: inline-flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -623,4 +624,58 @@ span {
     height: 100%;
     background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%) scale(1);
+    width: 408px;
+    height: 584px;
+    min-height: 584px;
+    background-color: var(--dairy);
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.20); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu_closing-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--cornflower);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-menu_closing-button:hover {
+    background-color: #404bbf;
+    border: none;
+}
+
+.modal-menu_closing-button:focus {
+    background-color: #404bbf;
+    border: none;   
+}
+
+.close-black-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-black-svg:hover {
+    fill: var(--white);
+}
+
+
+.close-black-svg:focus {
+    fill: var(--white);
 }
