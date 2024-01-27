@@ -588,6 +588,7 @@ span {
 
 .buttton-footer {
     display: inline-flex;
+    font-family: "Roboto sans-serif";
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -602,4 +603,9 @@ span {
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.64px; 
+    cursor: pointer;
+}
+
+.button-footer-svg {
+
 }
