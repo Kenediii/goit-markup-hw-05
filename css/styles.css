@@ -671,11 +671,11 @@ span {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-menu_closing-button .close-black-svg:hover {
+.modal-menu_closing-button:hover  .close-black-svg{
     fill: #ffffff;
 }
 
 
-.modal-menu_closing-button .close-black-svg:focus {
+.modal-menu_closing-button:focus .close-black-svg {
     fill: #ffffff;
 }
