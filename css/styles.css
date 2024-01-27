@@ -672,10 +672,10 @@ span {
 }
 
 .close-black-svg:hover {
-    fill: var(--white);
+    fill: #ffffff;
 }
 
 
 .close-black-svg:focus {
-    fill: var(--white);
+    fill: #ffffff;
 }
