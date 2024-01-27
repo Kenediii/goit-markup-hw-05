@@ -547,6 +547,35 @@ span {
 
 }
 
+.last-footer_text {
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.last-footer_form {
+    display: flex;
+    gap: 24px;
+}
+
+.last-footer_input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: var(--white);
+}
+
 .buttton-footer {
     display: inline-flex;
     padding: 8px 24px;
