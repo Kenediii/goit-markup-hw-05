@@ -727,12 +727,13 @@ span {
 
 .modal-input:focus {
     border-color: var(--iris);
-    
+
 }
 
-.modal-input:focus .modal_svg-person{
+.modal_svg-person:focus .modal-input {
     fill: #4D5AE5
 }
+
 
 .modal_svg-person {
     position: absolute;
