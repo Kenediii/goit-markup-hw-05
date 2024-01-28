@@ -801,6 +801,6 @@ span {
     fill: var(--cloud);
 }
 
-.privacy-policy_svg {
-
+.link-privacy-policy {
+    color: var(--iris);
 }
