@@ -795,7 +795,7 @@ span {
     fill: transparent;
 }
 
-input[type="checkbox"]:checked {
+input[type="checkbox"]:checked + .privacy-policy{
     background-color: var(--blue);
     border: none;
     fill: var(--cloud);
