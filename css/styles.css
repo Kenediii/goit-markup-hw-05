@@ -803,6 +803,7 @@ input[type="checkbox"]:checked {
 
 .link-privacy-policy {
     color: var(--iris);
+    text-decoration-line: underline; 
 }
 
 .form_button {
