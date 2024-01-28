@@ -795,7 +795,7 @@ span {
     fill: transparent;
 }
 
-.input-last-form:checked .privacy-policy {
+input[type="checkbox"]:checked {
     background-color: var(--blue);
     border: none;
     fill: var(--cloud);
@@ -803,4 +803,20 @@ span {
 
 .link-privacy-policy {
     color: var(--iris);
+}
+
+.form_button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+    background-color: var(--iris);
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
