@@ -742,7 +742,7 @@ span {
     fill: #4D5AE5;
 }
 
-.container-input:focus .modal_svg-person {
+.modal-input:focus + .modal_svg-person {
     fill: var(--iris);
 }
 
