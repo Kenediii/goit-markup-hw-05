@@ -725,8 +725,9 @@ span {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-..modal-input:focus {
+.modal-input:focus {
     border-color: var(--iris);
+    
 }
 
 .modal-input:focus .modal_svg-person{
