@@ -730,11 +730,6 @@ span {
 
 }
 
-.modal_svg-person:focus .modal-input {
-    fill: #4D5AE5
-}
-
-
 .modal_svg-person {
     position: absolute;
     left: 16px;
@@ -744,5 +739,5 @@ span {
 }
 
 .container-input:focus .modal_svg-person {
-    fill: #4D5AE5
+    fill: #4D5AE5;
 }
