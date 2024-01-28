@@ -795,6 +795,12 @@ span {
     fill: transparent;
 }
 
+.input-last-form:checked .privacy-policy {
+    background-color: var(--blue);
+    border: none;
+    fill: var(--cloud);
+}
+
 .privacy-policy_svg {
 
 }
