@@ -795,7 +795,7 @@ span {
     fill: transparent;
 }
 
-input[type="checkbox"]:checked + .privacy-policy{
+input[type="checkbox"]:checked + .modal-form_label_two > .privacy-policy{
     background-color: var(--blue);
     border: none;
     fill: var(--cloud);
