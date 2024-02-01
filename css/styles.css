@@ -616,7 +616,7 @@ span {
 
 /*modal-menu*/
 
-.modal-menu {
+.is-open {
     position: fixed;
     top: 0;
     left: 0;
