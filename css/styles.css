@@ -598,7 +598,6 @@ span {
     background: var(--IRIS, #4D5AE5); 
     color: var(--WHITE, #FFF);
     text-align: center; 
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
