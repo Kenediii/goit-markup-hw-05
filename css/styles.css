@@ -593,7 +593,6 @@ span {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px; 
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5); 
     color: var(--WHITE, #FFF);
@@ -610,6 +609,7 @@ span {
 }
 
 .button-footer-svg {
+    margin-left: 16px;
     fill: var(--cloud);
 }
 
