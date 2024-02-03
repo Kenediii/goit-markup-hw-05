@@ -611,7 +611,7 @@ span {
 
 .button-footer-svg {
     margin-left: 16px;
-    color: var(--white);
+    fill: var(--cloud);
 }
 
 /*modal-menu*/
